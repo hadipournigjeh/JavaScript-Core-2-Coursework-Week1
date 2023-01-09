@@ -16,23 +16,32 @@ let car = {
 
 console.log(car["colour"]);
 
+// my explain
+// there is no color key word in our object
+
 // Example 2
 function sayHelloToUser(user) {
   console.log(`Hello ${user.firstName}`);
 }
 
 let user = {
-  name: "Mira"
+  name: "Mira",
 };
 
 sayHelloToUser(user);
 
+// my explain
+// there is no key word firstName in our object
+
 // Example 3
 let myPet = {
   animal: "Cat",
-  getName: function() {
+  getName: function () {
     "My pet's name is Fluffy";
   },
 };
 
 console.log(myPet.getName());
+
+// my explain
+// function doesn't have return
