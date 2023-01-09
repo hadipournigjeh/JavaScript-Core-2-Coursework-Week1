@@ -23,3 +23,28 @@
 */
 
 // write code here
+
+let myFavoriteRecipe = {
+  title: "Pizza",
+  servings: 4,
+  ingredients: [
+    "pizza bread",
+    "ketchap sauce",
+    "mushroom",
+    "pepperoni",
+    "meatball",
+    "corn",
+    "cheese",
+  ],
+};
+
+console.log(myFavoriteRecipe.title);
+console.log(`serves: ${myFavoriteRecipe.servings}`);
+console.log("Ingredients:");
+console.log(myFavoriteRecipe.ingredients[0]);
+console.log(myFavoriteRecipe.ingredients[1]);
+console.log(myFavoriteRecipe.ingredients[2]);
+console.log(myFavoriteRecipe.ingredients[3]);
+console.log(myFavoriteRecipe.ingredients[4]);
+console.log(myFavoriteRecipe.ingredients[5]);
+console.log(myFavoriteRecipe.ingredients[6]);
